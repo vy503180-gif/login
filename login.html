@@ -1,0 +1,26 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="login_ar">
+        <h1>Login page</h1>
+        <hr>
+        <input type="text" id="name" placeholder="Enter Mobile Number"><br>
+        <input type="password" id="password" placeholder="Enter Your password"><br>
+        <button onclick="clear()">Login</button><br><br>
+        <a href="#" class="ca">Create Acount</A><br>
+        <a href="#" class="back">Back</a>
+    </div>
+<script>
+    function clear() {
+    document.getElementById("name").value = "";
+    document.getElementById("password").value = "";
+}
+</script>
+</body>
+</html>
